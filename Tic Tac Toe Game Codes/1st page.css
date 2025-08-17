@@ -1,0 +1,70 @@
+#about {
+  margin: 0 23px;
+  padding: 1px 18px;
+  background: #5ff869;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Baloo Bhaina 2";
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#rules {
+  margin: 0 23px;
+  padding: 1px 18px;
+  background: #5ff8df;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Baloo Bhaina 2";
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#about {
+  margin: 0 23px;
+  padding: 1px 18px;
+  background: #5ff8df;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Baloo Bhaina 2";
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#Multi_Player {
+  margin: 0 23px;
+  padding: 1px 18px;
+  background: #5ff8df;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Baloo Bhaina 2";
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#Play_With_AI {
+  margin: 0 23px;
+  padding: 1px 18px;
+  background: #5ff8df;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Baloo Bhaina 2";
+  font-size: 20px;
+  font-weight: bolder;
+}
+h1 {
+  text-align: center;
+  color: rgb(218, 255, 195);
+  font-family: "Baloo Bhaina 2";
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+h6 {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  font-family: "Baloo Bhaina 2";
+  font-size: 35px;
+  font-weight: bolder;
+  margin-left: 30px;
+}

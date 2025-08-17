@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body style="background-image: url(albackground.jpg)">
+    <h3>Welcome To The Game</h3>
+    <div class="landingBG open">
+      <div class="landing-page">
+        <form id="gameForm">
+          <h3>Settings</h3>
+          <input type="text" placeholder="Player 1" id="p1initName" />
+          <input type="checkbox" id="p1iscpu" /> CPU?
+          <br />
+          <input type="text" placeholder="Player 2" id="p2initName" />
+          <input type="checkbox" id="p2iscpu" checked /> CPU?
+          <br />
+          <input type="button" id="startGame" value="Start Game" />
+        </form>
+      </div>
+    </div>
+
+    <div class="container" style="position: relative; top: -100px; left: -50px">
+      <div id="controls">
+        <button
+          style="position: relative; top: 320px; left: 450px"
+          id="restart"
+        >
+          Restart
+        </button>
+        <button
+          style="position: relative; top: 320px; left: 500px"
+          id="settings"
+        >
+          Settings
+        </button>
+      </div>
+
+      <div class="game" id="p1" data-my-turn="true">
+        <div class="name" id="p1name">Player 1: X</div>
+      </div>
+      <div class="game" id="p2" data-my-turn="false">
+        <div class="name" id="p2name">Player 2: O</div>
+      </div>
+      <div class="game">
+        <table id="board"></table>
+      </div>
+    </div>
+    <script src="al script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" type="text/css" href="1st page.css"> 
+</head>
+<body style="background-image: url(1stpage.jpeg);">
+    <br><br><br><br><br>
+    <h1 style="position: relative; top: -160px; left: -70px;"><b><i>Tic-Tac-Toe Game</i></b></h1>
+    <br>
+    <h6 style="position: relative; top: 10px; left: -35px;"><i>Please Select An Option:</i></h6>
+
+    <a href="Multi Player Tic-Tac_Toe Game/">
+        <button  style="position: relative; left: 150px;" id="Multi_Player" onclick="showMulti_Player()">Multi_Player</button>
+    </a>
+    <br><br>
+   
+    <a href="Tic-Tac-Toe Game with AI/">
+ <button  style="position: relative; top: 25px; left: 150px;"id="Play_With_AI" onclick="showPlay_With_AI()">Play_With_AI</button>
+    </a>
+   <br><br>
+<button style="position: relative; top: 127px; left: 1070px;"  id ="rules" onclick="showrules()">Rules</button>
+<script>
+    function showrules(){
+        var y="1.First select a option for playing(Weather you want to play with friend or play with AI).\n\n\n 2. Two palyers taking turns making X's and 0's on a 3*3 grid\n\n\n 3. The first player to get three of their marks in a row (horizontally,vertically,diagonally)wins.\n\n\n 4. If all nine squares are full and no players has three marks in a row, the game ends in a ties.\n\n\n 5. If both player always use optimal strategy, the game will always ends in a draw.\n\n\n"
+        alert(y);
+    }
+</script>
+<br><br>
+<button style="position: relative; top: 80px; left: 1180px;" id ="about" onclick="showalert()">About</button>
+<script>
+    function showalert(){
+        var x="This game is developed by:\n\n\n Abhishek Jena\n Mohan Sahoo\n Priyanshu Sekhar Panda\n SK.MD.Mashihul Anzar\n";
+        alert(x);
+    }
+</script>
+<br><br>
+</body>
+</html>
